@@ -1,0 +1,28 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>ru.vadya.home.portal</groupId>
+   <artifactId>portal_ejb</artifactId>
+   <packaging>ejb</packaging>
+   <name>ejb</name>
+   <parent>
+      <groupId>ru.vadya.home.portal</groupId>
+      <artifactId>portal_root</artifactId>
+      <version>0.1</version>
+   </parent>
+   <dependencies>      
+  </dependencies>
+   <build>
+      <plugins>
+         <plugin>
+            <artifactId>maven-ejb-plugin</artifactId>
+            <configuration>
+               <archive>
+                  <manifest>
+                     <addClasspath>true</addClasspath>
+                  </manifest>
+               </archive> 
+            </configuration>
+         </plugin>
+      </plugins>
+   </build>
+</project>
