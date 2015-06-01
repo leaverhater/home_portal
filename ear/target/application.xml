@@ -13,4 +13,10 @@
       <context-root>/portal_web</context-root>
     </web>
   </module>
+  <module>
+    <web>
+      <web-uri>portal_services-0.1.war</web-uri>
+      <context-root>/portal_services</context-root>
+    </web>
+  </module>
 </application>
