@@ -1,0 +1,20 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>ru.vadya.home.portal</groupId>
+   <artifactId>portal_services</artifactId>
+   <packaging>war</packaging>
+   <name>services</name>
+   <parent>
+      <groupId>ru.vadya.home.portal</groupId>
+      <artifactId>portal_root</artifactId>
+      <version>0.1</version>
+   </parent>
+   <dependencies>
+      <dependency>
+         <groupId>ru.vadya.home.portal</groupId>
+         <artifactId>portal_ejb</artifactId>
+         <version>0.1</version>
+         <scope>provided</scope>
+      </dependency>
+   </dependencies>
+</project>

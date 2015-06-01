@@ -9,5 +9,6 @@
 		<module>ejbs</module>
 		<module>ear</module>
 		<module>web</module>
+		<module>services</module>
 	</modules>	
 </project>

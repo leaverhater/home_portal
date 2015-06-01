@@ -21,7 +21,13 @@
          <artifactId>portal_web</artifactId>
          <version>0.1</version>
          <type>war</type>
-      </dependency>      
+      </dependency>    
+      <dependency>
+         <groupId>ru.vadya.home.portal</groupId>
+         <artifactId>portal_services</artifactId>
+         <version>0.1</version>
+         <type>war</type>
+      </dependency>        
    </dependencies>
    <build>
       <plugins>
